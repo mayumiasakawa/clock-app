@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Clock class="clock" />
+    <Clock class="clock"/>
   </div>
 </template>
 
