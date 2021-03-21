@@ -31,7 +31,7 @@
         return zeroPadding(this.date.getMonth() + 1, 2)
       },
       day(){
-        return zeoPadding(this.date.getDate(), 2)
+        return zeroPadding(this.date.getDate(), 2)
       },
       hours(){
         return zeroPadding(this.date.getHouers(), 2)
