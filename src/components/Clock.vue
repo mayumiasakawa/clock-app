@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="container">
+      <p class="location">{{ location }}</p>
       <p class="date">{{ year }}/{{ month }}/{{ day }}</p>
       <div class="time">
         <p class="time-item hours">{{ hours }}</p>
@@ -62,6 +63,14 @@
   .container {
   background-color: #3a4a5e;
   padding: 2%;
+}
+
+.location {
+  color: #48b883;
+  font-family: 'Teko', sans-serif;
+  font-size: 5rem;
+  letter-spacing:  .05em;
+  line-height: 1;
 }
  
  
