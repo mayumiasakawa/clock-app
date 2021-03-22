@@ -18,6 +18,8 @@
   }
   
   export default {
+    props: ["location", "diff"],
+
     data() {
       return {
         date: new Date(),
@@ -50,6 +52,7 @@
       methods: {
         setDate(){
           this.date = new Date()
+          this.date.setHours(this.date.getHours() + this.diff)
         },
       },
   }
