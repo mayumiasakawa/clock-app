@@ -1,6 +1,12 @@
 <template>
   <div>
-    <Clock class="clock"/>
+    <Clock class="clock" location="TOKYO" :diff="0"/>
+    <Clock class="clock" location="NY" :diff="-14"/>
+    <Clock class="clock" location="LA" :diff="-17"/>
+    <Clock class="clock" location="UK" :diff="-9"/>
+    <Clock class="clock" location="BRAZIL" :diff="-12"/>
+    <Clock class="clock" location="SYDNEY" :diff="1"/>
+    <Clock class="clock" location="DUBAI" :diff="-5"/>
   </div>
 </template>
 
