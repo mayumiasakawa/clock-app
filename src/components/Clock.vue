@@ -73,7 +73,6 @@
   line-height: 1;
 }
  
- 
 .date {
   text-align: right;
   color: #fff;
@@ -84,11 +83,9 @@
   line-height: 1;
 }
  
- 
 .time {
   display: flex;
 }
- 
  
 .time-item {
   display: flex;
@@ -108,7 +105,6 @@
   box-sizing: border-box;
 }
  
- 
 .time-item:before {
   position: absolute;
   right: 5px;
@@ -120,16 +116,13 @@
   letter-spacing: .05em;
 }
  
- 
 .hours:before {
   content: "Hours";
 }
  
- 
 .minutes:before {
   content: "Minutes";
 }
- 
  
 .seconds:before {
   content: "Seconds";
